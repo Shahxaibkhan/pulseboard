@@ -410,6 +410,9 @@ export default function ImportPage() {
         { "Release Name": "Release 1.0", "Release Date": "2026-03-01", "Vendor": "XYZ Vendor", "Status": "PLANNED", "Progress": "0" },
         { "Release Name": "Release 1.1", "Release Date": "2026-06-01", "Vendor": "XYZ Vendor", "Status": "PLANNED", "Progress": "0" },
       ],
+      "project-tracker": [
+        { "Note": "Use your Liugong-format Excel file directly — no template needed for this mode." },
+      ],
     }
     const ws = XLSX.utils.json_to_sheet(templates[mode])
     const wb = XLSX.utils.book_new()
